@@ -1,5 +1,11 @@
 {
-  "enabledPlugins": {
-    "expo@claude-plugins-official": true
+  "includeCoAuthoredBy": true,
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/validate-env.js)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)"
+    ]
   }
 }
